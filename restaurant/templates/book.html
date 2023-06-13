@@ -70,7 +70,6 @@
       .then(data => {
         reserved_slots = [];
         bookings = '';
-        console.log(data);
         /* Step 11: Part three */
         data.forEach(booking => {
           reserved_slots.push(booking.reservation_slot);
