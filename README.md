@@ -1,27 +1,9 @@
 # Project Setup
 
-```bash
-django-admin startproject the_full_stack .
-pipenv shell
-```
+## Home page
 
-Install some libraries
+![image](https://github.com/hoangtranson/the_full_stack/assets/35447677/e15a7b19-51b3-4bbf-9782-1028f9971ba7)
 
-```bash
-pipenv install django
-pipenv install djangorestframework
-pipenv install djangorestframework-xml
-pipenv install psycopg2
-```
+## Booking page
 
-Create my app
-
-```bash
-python manage.py startapp myapp
-```
-
-Run Server 
-
-```bash
-python manage.py runserver
-```
+![image](https://github.com/hoangtranson/the_full_stack/assets/35447677/d23d703e-84ec-4ab2-9388-93d21a845a3d)
