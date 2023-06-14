@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'the_full_stack.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'the_full_stack_dev',
+        'NAME': 'reservations',
         'USER': 'postgres',
         'PASSWORD': 'admin',
         'HOST': 'localhost',
