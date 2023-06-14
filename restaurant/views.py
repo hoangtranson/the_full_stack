@@ -67,3 +67,9 @@ def display_menu_item(request, pk=None):
     else:
         menu_item = ""
     return render(request, 'menu_item.html', {"menu_item": menu_item})
+
+def reservations(request):
+    date = request.GET.get('date',datetime.today().date())
+    bookings = Booking.objects.all()
+    booking_json = serializers.serialize('json', bookings)
+    return render(request, 'bookings.html',{"bookings":booking_json})
